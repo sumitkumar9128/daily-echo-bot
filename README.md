@@ -69,5 +69,37 @@ Note: Make sure .env is added to your .gitignore to keep your sensitive keys saf
   npm run dev
 ```
 
+## Usage
+
+Once the bot is running, start a chat with it on Telegram. Use the /start command to register and receive a grand welcome message. Then, simply type your events throughout the day and use the provided commands to manage your logs and generate social media posts.
+
+## Commands
+
+- /start
+Register and start using the bot. Receive a grand welcome message with details on how to use the bot.
+
+- /generate
+Generate engaging social media posts based on your logged events.
+
+- /clear
+Clear all your logged events from the database.
+
+- /stats
+View your usage statistics, including the number of events logged and posts generated.
+
+- /history
+Display your most recent logged events (latest 5 entries).
+
+- /settings
+Update your post settings, such as tone or social media platforms.
+
+- /export
+Export your logs as a CSV file. The bot will generate the CSV and send it as a document.
+
+- /info
+Get information about the bot, including version, last update, and other details.
+
+- /help
+Show this help message with the list of available commands.
 
 
