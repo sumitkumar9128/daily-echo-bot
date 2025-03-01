@@ -102,4 +102,23 @@ Get information about the bot, including version, last update, and other details
 - /help
 Show this help message with the list of available commands.
 
+## Environment Variables
 
+The bot requires the following environment variables in your .env file:
+
+- BOT_TOKEN: Your Telegram Bot token (provided by BotFather).
+- MONGO_CONNECT_STRING: Your MongoDB connection string.
+- GEMINI_KEY: Your API key for the Gemini API (Google Generative AI).
+- GEMINI_MODEL: The model name to use with Gemini (e.g., gemini-1.5-flash).
+
+  
+## Development Notes
+
+- Initial Challenges:
+Initially, I used the OpenAI API, but rapid quota exhaustion made it impractical. Switching to the Gemini API resolved these issues, allowing for a more stable solution.
+
+- Modularization:
+The current implementation mostly resides in a single file (server.js). Future improvements could modularize the code into separate modules for API interactions, database operations, and command handling.
+
+- Error Handling & Logging:
+Extensive error logging is implemented to help diagnose issues during development and in production.
