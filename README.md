@@ -75,31 +75,31 @@ Once the bot is running, start a chat with it on Telegram. Use the /start comman
 
 ## Commands
 
-- /start
+- /start :
 Register and start using the bot. Receive a grand welcome message with details on how to use the bot.
 
-- /generate
+- /generate :
 Generate engaging social media posts based on your logged events.
 
-- /clear
+- /clear :
 Clear all your logged events from the database.
 
-- /stats
+- /stats :
 View your usage statistics, including the number of events logged and posts generated.
 
-- /history
+- /history :
 Display your most recent logged events (latest 5 entries).
 
-- /settings
+- /settings :
 Update your post settings, such as tone or social media platforms.
 
-- /export
+- /export :
 Export your logs as a CSV file. The bot will generate the CSV and send it as a document.
 
-- /info
+- /info :
 Get information about the bot, including version, last update, and other details.
 
-- /help
+- /help :
 Show this help message with the list of available commands.
 
 ## Environment Variables
