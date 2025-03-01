@@ -3,8 +3,6 @@
 DailyEchoBot is a Telegram bot that helps you log your daily activities and automatically generates engaging social media posts for LinkedIn, Facebook, and Twitter using AI. It’s designed to streamline your content creation process—simply log your thoughts throughout the day, and with a single command, receive ready-to-share posts!
 
 ## Screenshots
-![Screenshot 2025-03-01 200934](https://github.com/user-attachments/assets/756ea21e-de5d-423f-b681-32dfa35ba97d)
-![Screenshot 2025-03-01 200925](https://github.com/user-attachments/assets/3a1337cf-7712-4cf4-a8bb-071a8538c65d)
 ![Screenshot 2025-03-01 200845](https://github.com/user-attachments/assets/c027a909-e34c-4934-809b-6e243d0bc4b9)
 
 
